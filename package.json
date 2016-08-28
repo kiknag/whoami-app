@@ -1,0 +1,28 @@
+{
+  "name": "whoami-app",
+  "version": "0.0.1",
+  "description": "MEAN stack based app that will show you all the information about you. For example: Ip address, OS, system language and etc.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiknag/whoami-app.git"
+  },
+  "keywords": [
+    "whoami",
+    "mean",
+    "ip"
+  ],
+  "author": "George Kiknadze",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiknag/whoami-app/issues"
+  },
+  "homepage": "https://github.com/kiknag/whoami-app#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
