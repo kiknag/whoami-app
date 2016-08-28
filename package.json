@@ -4,7 +4,8 @@
   "description": "MEAN stack based app that will show you all the information about you. For example: Ip address, OS, system language and etc.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "development": "nodemon app.js"
   },
   "repository": {
     "type": "git",
