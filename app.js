@@ -8,7 +8,9 @@ app.set('view engine', 'pug');
 app.set('views', 'views');
 
 app.get('/', (req, res)=> {
-  res.render('index');
+  var userIP = req.ip;
+  var userOS = req.headers['user-agent'];
+  res.render('index', {ip : userIP, os : userOS});
 });
 
 app.listen(3000, ()=> {
